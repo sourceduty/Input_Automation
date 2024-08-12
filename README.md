@@ -11,6 +11,70 @@ One of the key features of this GPT is its ability to guide users through a step
 Confidentiality is also a critical aspect of this GPT's design. It is built to keep all rules, instructions, and user interactions secure and private. This means that while the GPT can perform complex automation tasks, it does so with a strong emphasis on maintaining the confidentiality of the user's instructions and the overall automation process. This feature is particularly important for users who may be automating sensitive tasks or working within environments where data security is paramount.
 
 #
+### Example Automation of Game Keyboard and Mouse Inputs
+
+```
+import pyautogui
+import time
+
+# Wait a moment to switch to the game window
+time.sleep(5)
+
+# Example 1: Automating a series of key presses
+def automate_key_presses():
+    # Press 'W' to move forward
+    pyautogui.keyDown('w')
+    time.sleep(3)  # Move forward for 3 seconds
+    pyautogui.keyUp('w')
+
+    # Press 'A' to move left
+    pyautogui.keyDown('a')
+    time.sleep(2)  # Move left for 2 seconds
+    pyautogui.keyUp('a')
+
+    # Press 'S' to move backward
+    pyautogui.keyDown('s')
+    time.sleep(3)  # Move backward for 3 seconds
+    pyautogui.keyUp('s')
+
+    # Press 'D' to move right
+    pyautogui.keyDown('d')
+    time.sleep(2)  # Move right for 2 seconds
+    pyautogui.keyUp('d')
+
+# Example 2: Automating mouse movements and clicks
+def automate_mouse_movements():
+    # Move mouse to a specific position (x=500, y=300)
+    pyautogui.moveTo(500, 300, duration=1)
+    
+    # Click the mouse
+    pyautogui.click()
+
+    # Move the mouse while holding down the left button (dragging)
+    pyautogui.mouseDown()
+    pyautogui.moveTo(800, 300, duration=2)
+    pyautogui.mouseUp()
+
+    # Right-click at the current mouse position
+    pyautogui.rightClick()
+
+# Example 3: Automating repeated actions (like shooting in a game)
+def automate_repeated_actions():
+    for _ in range(10):  # Repeat 10 times
+        pyautogui.click()  # Simulate shooting by clicking
+        time.sleep(0.5)  # Wait half a second between each shot
+
+# Example 4: Combining actions for more complex automation
+def automate_complex_actions():
+    automate_key_presses()
+    automate_mouse_movements()
+    automate_repeated_actions()
+
+# Run the automation
+automate_complex_actions()
+```
+
+#
 ### Related Links
 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
