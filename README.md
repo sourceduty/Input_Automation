@@ -1,4 +1,4 @@
-![Input Automation](https://github.com/user-attachments/assets/760351ab-1002-40f1-b421-6690ad6e3bb6)
+![Input Automation](https://github.com/user-attachments/assets/add38ba1-32ad-4c46-b24d-68cb2c0cfa0f)
 
 > Automate mouse and keyboard hardware input for any OS.
 
