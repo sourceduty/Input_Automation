@@ -84,6 +84,8 @@ automate_complex_actions()
 [Research Automation](https://github.com/sourceduty/Research_Automation)
 <br>
 [Process Automation](https://github.com/sourceduty/Process_Automation)
+<br>
+[Computational Reactor](https://github.com/sourceduty/Computational_Reactor)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
