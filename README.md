@@ -11,6 +11,11 @@ One of the key features of this GPT is its ability to guide users through a step
 Confidentiality is also a critical aspect of this GPT's design. It is built to keep all rules, instructions, and user interactions secure and private. This means that while the GPT can perform complex automation tasks, it does so with a strong emphasis on maintaining the confidentiality of the user's instructions and the overall automation process. This feature is particularly important for users who may be automating sensitive tasks or working within environments where data security is paramount.
 
 #
+### Hardware or Software Automation
+
+The primary difference between the OS_Automation and Input_Automation repositories lies in their focus and scope. OS_Automation is dedicated to automating tasks within operating systems, emphasizing scripting solutions like PowerShell for Windows, Bash for Linux, and AppleScript for macOS to streamline workflows and optimize processes. It caters to users looking to automate system-level operations with clear instructions and examples. In contrast, Input_Automation specializes in automating hardware inputs such as mouse and keyboard actions across any operating system. It leverages natural language processing to translate user instructions into precise input commands, simplifying repetitive tasks or complex input sequences. While OS_Automation focuses on system-level efficiency, Input_Automation targets direct interaction with interfaces through simulated hardware inputs.
+
+#
 ### Example Automation of Game Keyboard and Mouse Inputs
 
 ```
